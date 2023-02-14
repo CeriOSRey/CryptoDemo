@@ -11,10 +11,16 @@ import SwiftUI
 struct CryptoDemoApp: App {
     let persistenceController = PersistenceController.shared
 
+    @StateObject private var vm = HomeViewModel()
+    
     var body: some Scene {
+        
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            NavigationView {
+                HomeView()
+                    .toolbar(.hidden)
+            }
+            .environmentObject(vm)   // all the children of this navigation view has access to the vm variable
         }
     }
 }
