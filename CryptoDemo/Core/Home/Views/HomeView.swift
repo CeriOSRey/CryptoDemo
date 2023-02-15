@@ -21,7 +21,8 @@ struct HomeView: View {
             // Foreground
             VStack {
                 homeHeaderView
-                
+                HomeStatsView(showPortfolio: .constant(false))
+                    .frame(height: 50)
                 SearchBarView(searchText: $vm.searchText)
                 
                 columnTitles

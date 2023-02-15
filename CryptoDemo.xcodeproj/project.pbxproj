@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5CA05A54299C324500729FE7 /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA05A53299C324500729FE7 /* Statistics.swift */; };
+		5CA05A57299C336700729FE7 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA05A56299C336700729FE7 /* StatisticView.swift */; };
+		5CA05A59299C360800729FE7 /* HomeStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA05A58299C360800729FE7 /* HomeStatsView.swift */; };
 		E007182B2991AC1F0098DD53 /* CryptoDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E007182A2991AC1F0098DD53 /* CryptoDemoApp.swift */; };
 		E007182D2991AC1F0098DD53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E007182C2991AC1F0098DD53 /* ContentView.swift */; };
 		E007182F2991AC200098DD53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E007182E2991AC200098DD53 /* Assets.xcassets */; };
@@ -53,6 +56,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5CA05A53299C324500729FE7 /* Statistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistics.swift; sourceTree = "<group>"; };
+		5CA05A56299C336700729FE7 /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
+		5CA05A58299C360800729FE7 /* HomeStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStatsView.swift; sourceTree = "<group>"; };
 		E00718272991AC1F0098DD53 /* CryptoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E007182A2991AC1F0098DD53 /* CryptoDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoDemoApp.swift; sourceTree = "<group>"; };
 		E007182C2991AC1F0098DD53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -109,6 +115,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5CA05A55299C333D00729FE7 /* Statistic */ = {
+			isa = PBXGroup;
+			children = (
+				5CA05A56299C336700729FE7 /* StatisticView.swift */,
+			);
+			path = Statistic;
+			sourceTree = "<group>";
+		};
 		E007181E2991AC1F0098DD53 = {
 			isa = PBXGroup;
 			children = (
@@ -213,6 +227,7 @@
 			children = (
 				E00718622991B1F90098DD53 /* HomeView.swift */,
 				E007186D2991C93D0098DD53 /* CoinRowView.swift */,
+				5CA05A58299C360800729FE7 /* HomeStatsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -220,6 +235,7 @@
 		E00718642991B3730098DD53 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				5CA05A55299C333D00729FE7 /* Statistic */,
 				E0071883299233950098DD53 /* SearchBar */,
 				E007187A29920D700098DD53 /* CoinImage */,
 				E00718652991B3890098DD53 /* CircleButton */,
@@ -240,6 +256,7 @@
 			isa = PBXGroup;
 			children = (
 				E007186B2991C12F0098DD53 /* CoinModel.swift */,
+				5CA05A53299C324500729FE7 /* Statistics.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -404,6 +421,7 @@
 			files = (
 				E0071885299233B10098DD53 /* SearchBarView.swift in Sources */,
 				E00718342991AC200098DD53 /* Persistence.swift in Sources */,
+				5CA05A54299C324500729FE7 /* Statistics.swift in Sources */,
 				E00718722991D3430098DD53 /* Double.swift in Sources */,
 				E00718372991AC200098DD53 /* CryptoDemo.xcdatamodeld in Sources */,
 				E0071879299207A90098DD53 /* NetworkingManager.swift in Sources */,
@@ -415,8 +433,10 @@
 				E00718692991B9620098DD53 /* CircleButtonAnimationView.swift in Sources */,
 				E00718802992112D0098DD53 /* CoinImageViewModel.swift in Sources */,
 				E00718772991F67B0098DD53 /* CoinDataService.swift in Sources */,
+				5CA05A57299C336700729FE7 /* StatisticView.swift in Sources */,
 				E007182D2991AC1F0098DD53 /* ContentView.swift in Sources */,
 				E00718702991C9F30098DD53 /* PreviewProvider.swift in Sources */,
+				5CA05A59299C360800729FE7 /* HomeStatsView.swift in Sources */,
 				E0071887299239540098DD53 /* UIApplication.swift in Sources */,
 				E00718742991E1C30098DD53 /* HomeViewModel.swift in Sources */,
 				E00718632991B1F90098DD53 /* HomeView.swift in Sources */,
